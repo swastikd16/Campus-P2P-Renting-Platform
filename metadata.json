@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Campus P2P Renting",
+  "description": "Campus Peer-to-Peer Renting Platform by CipherOps",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
