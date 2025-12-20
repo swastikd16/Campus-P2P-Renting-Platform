@@ -1,56 +1,20 @@
-# 📦 Campus Peer-to-Peer Renting Platform
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-A campus-exclusive platform where students can **lend and borrow items from each other securely for a small fee**. Items like scientific calculators, formal shoes, lab coats, pumps, books, cables, and sports equipment can be rented instead of purchased — saving money, time, and reducing resource wastage on campus.
+# Run and deploy your AI Studio app
 
----
+This contains everything you need to run your app locally.
 
-## 💡 Why This Platform?
-Students frequently need temporary items but end up:
-- Buying them unnecessarily
-- Searching for them at the last moment
-- Borrowing without any guarantee of return
+View your app in AI Studio: https://ai.studio/apps/drive/11Z8lCYRmmxfOis2RbpBJ_I-k4bMsqvcl
 
-Meanwhile, many students already own the same items but rarely use them.
+## Run Locally
 
-This platform connects both sides and makes **resource sharing easier, safer, and beneficial for everyone**.
+**Prerequisites:**  Node.js
 
----
 
-## ✨ Key Features
-- 🎓 College Email / ID-based user verification  
-- 🖼 Item listing with images, rental price, availability & deposit  
-- 📅 Automated booking system with return deadlines  
-- 💬 In-app chat with masked identity for item discussion  
-- ⭐ Ratings & reviews for both lenders and borrowers  
-- 📍 Secure on-campus pickup / drop-off point  
-- 🔐 **Refundable 50% MRP security deposit auto-locked & released only upon safe return of the item**
-
----
-
-## 🧠 Workflow (Simplified)
-1. Student logs in using college identity  
-2. Browses or lists items for rent  
-3. Borrower requests booking  
-4. Payment + security deposit processed  
-5. Pickup at campus handover point  
-6. Item is used → returned → reviewed  
-7. Deposit returned & lender gets payment
-
----
-
-## 📈 Benefits
-- Saves money for borrowers  
-- Generates earnings for lenders  
-- Reduces unnecessary buying and waste  
-- Promotes resource reuse and sustainability  
-- Builds a more collaborative campus environment
-
----
-
-## 📜 License
-This project is licensed under the **MIT License**.
-
----
-
-## ⭐ Support
-If you like this idea, consider giving this project a **star** ⭐ on GitHub!
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

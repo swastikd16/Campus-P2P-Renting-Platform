@@ -1,3 +1,4 @@
+
 export enum Category {
   ELECTRONICS = 'Electronics',
   BOOKS = 'Books',
@@ -26,7 +27,7 @@ export interface Item {
   originalPrice: number;
   imageUrl: string;
   isAvailable: boolean;
-  location: string; // e.g., "Hostel H4", "Library"
+  location: string;
   condition: 'New' | 'Like New' | 'Good' | 'Fair';
 }
 
@@ -38,6 +39,14 @@ export interface Transaction {
   endDate: string;
   totalPrice: number;
   status: 'PENDING' | 'ACTIVE' | 'COMPLETED' | 'DISPUTED';
+}
+
+export interface ChatMessage {
+  id: string;
+  itemId: string;
+  senderId: string;
+  text: string;
+  timestamp: string;
 }
 
 export interface AIAnalysisResult {

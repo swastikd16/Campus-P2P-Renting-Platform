@@ -1,10 +1,11 @@
+
 import { Category, Item, User } from './types';
 
 export const CURRENT_USER: User = {
   id: 'u1',
   name: 'Arjun Mehta',
-  email: 'arjun.m@college.edu.in',
-  avatar: 'https://picsum.photos/id/64/200/200',
+  email: 'arjun.m@nitrr.ac.in',
+  avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Arjun',
   isVerified: true,
   rating: 4.8
 };
@@ -14,16 +15,16 @@ export const MOCK_USERS: Record<string, User> = {
   'u2': {
     id: 'u2',
     name: 'Sneha Reddy',
-    email: 'sneha.r@college.edu.in',
-    avatar: 'https://picsum.photos/id/65/200/200',
+    email: 'sneha.r@nitrr.ac.in',
+    avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Sneha',
     isVerified: true,
     rating: 4.9
   },
   'u3': {
     id: 'u3',
     name: 'Rahul Verma',
-    email: 'rahul.v@college.edu.in',
-    avatar: 'https://picsum.photos/id/91/200/200',
+    email: 'rahul.v@nitrr.ac.in',
+    avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Rahul',
     isVerified: false,
     rating: 4.2
   }
@@ -38,7 +39,7 @@ export const MOCK_ITEMS: Item[] = [
     category: Category.ELECTRONICS,
     pricePerDay: 40,
     originalPrice: 1200,
-    imageUrl: 'https://picsum.photos/id/1/400/300',
+    imageUrl: 'https://images.unsplash.com/photo-1574607383476-f517f260d30b?auto=format&fit=crop&q=80&w=800',
     isAvailable: true,
     location: 'Library Pickup Zone',
     condition: 'Like New'
@@ -51,7 +52,7 @@ export const MOCK_ITEMS: Item[] = [
     category: Category.CLOTHING,
     pricePerDay: 150,
     originalPrice: 2500,
-    imageUrl: 'https://picsum.photos/id/21/400/300',
+    imageUrl: 'https://images.unsplash.com/photo-1449247709967-d4461a6a6103?auto=format&fit=crop&q=80&w=800',
     isAvailable: true,
     location: 'Hostel H5 Main Gate',
     condition: 'Good'
@@ -64,7 +65,7 @@ export const MOCK_ITEMS: Item[] = [
     category: Category.LAB_EQUIPMENT,
     pricePerDay: 30,
     originalPrice: 600,
-    imageUrl: 'https://picsum.photos/id/30/400/300',
+    imageUrl: 'https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&q=80&w=800',
     isAvailable: true,
     location: 'Chemistry Dept Lobby',
     condition: 'Good'
@@ -77,7 +78,7 @@ export const MOCK_ITEMS: Item[] = [
     category: Category.SPORTS,
     pricePerDay: 80,
     originalPrice: 3000,
-    imageUrl: 'https://picsum.photos/id/73/400/300',
+    imageUrl: 'https://images.unsplash.com/photo-1626225967045-2c76b2af6432?auto=format&fit=crop&q=80&w=800',
     isAvailable: false,
     location: 'Sports Complex',
     condition: 'Fair'
@@ -90,7 +91,7 @@ export const MOCK_ITEMS: Item[] = [
     category: Category.BOOKS,
     pricePerDay: 50,
     originalPrice: 4500,
-    imageUrl: 'https://picsum.photos/id/24/400/300',
+    imageUrl: 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&q=80&w=800',
     isAvailable: true,
     location: 'Main Canteen',
     condition: 'Good'
